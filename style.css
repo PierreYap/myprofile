@@ -1,0 +1,158 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: #b3a99a;
+	height: 100%;
+	width: 100%;
+}
+
+#img {
+	background: url(images/beats.jpg) no-repeat;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 1000px;
+	height: 430px;
+	position: absolute;
+	background-size: cover;
+	background-position: center;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	box-sizing: border-box;
+	-webkit-box-shadow: 0 10px 40px 0px #4e4846;
+}
+
+#logo {
+	background-image: url(images/logo.png);
+	position: absolute;
+	width: 95px;
+	height: 95px
+	background-size : cover;
+	background-position: center;
+	margin-left: 30px;
+	float: left;
+	margin-top: 15px;
+
+}
+
+#logo p {
+	color: white;
+	font-size: 30px
+	margin-left: 30px;
+	margin-top: 60px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+#text {
+	float: right;
+	color: white;
+	margin-right: 10px;
+	margin-top: 40px;
+	font-weight: lighter;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 3px;
+
+}
+
+#text h1 {
+	font-size: 26px;
+}
+
+#text p {
+	font-size: 11px;
+}
+
+#sub1 {
+	height: 40px;
+	width: 130px;
+	border: none;
+	color: white;
+	background: #ff5722;
+	font-family: 'Raleway', sans-serif;
+}
+
+#sub2 {
+	height: 40px;
+	width: 130px;
+	border: 2px solid white;
+	background: transparent;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+#sub2:hover {
+background: #ff5722;
+border: none;
+}
+
+#white {
+	background: white;
+	width: 1000px;
+	height: 140px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 116%;
+	left: 50%;
+	box-sizing: border-box;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	-webkit-box-shadow: 0; 10px 60px 0 #4e4846;
+}
+
+#orange {
+	height: 140px;
+	width: 8px;
+	background: #ff5722;
+	border-bottom-left-radius: 8px;
+	border-bottom-right-radius: 8px;
+	float: left;
+}
+
+#white h4 {
+	margin-left: 120px;
+	margin-top: 30px;
+	color: #101010;
+	font-family: 'Raleway', sans-serif;
+}
+
+#white p {
+	font-size: 15px;
+	margin-left: 120px;
+	margin-top: 8px;
+	font-family: 'Raleway', sans-serif;
+}
+
+#sub {
+	float: right;
+	margin-top: -54px;
+	margin-right: 25px;
+	width: 110px;
+	height: 35px;
+	font-size: 11px;
+	background: #ff5722;
+	border: none;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 4px;
+}
+
+#search {
+	margin-left: 350px;
+	margin-top: -100px;
+	width: 350px;
+	height: 38px;
+	background-color: #eae6e6;
+	font-family: 'Raleway', sans-serif;
+	border-radius: 4px;
+	border: none;
+}
+
+#button {
+	margin-left: 160px;
+	margin-top: -45px;
+	
+}
